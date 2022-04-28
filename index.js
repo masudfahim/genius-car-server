@@ -50,6 +50,10 @@ async function run() {
             });
             res.send({ accessToken });
         })
+        app.get('/hero', (req, res) => {
+            res.send('running meets heroku server')
+
+        })
 
 
 
